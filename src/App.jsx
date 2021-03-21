@@ -64,7 +64,7 @@ addStudent(studentName) {
       );
     }
 
-    /* Change below to render students*/
+    /* students*/
 
     if (this.state.buttonClicked === "students") {
       tabChoice = (
@@ -76,7 +76,7 @@ addStudent(studentName) {
         />
       );
     }
-
+    /*grades section rendering*/
     if (this.state.buttonClicked === "grades") {
       tabChoice = (
         <Table
